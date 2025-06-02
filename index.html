@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS 102/CSC 121 - Random Question Generator</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+        #questionDisplay { min-height: 100px; margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 4px; background-color: #e9ecef; font-size: 1.2em; }
+        button { padding: 10px 20px; font-size: 1em; color: #fff; background-color: #007bff; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s ease; }
+        button:hover { background-color: #0056b3; }
+        h1 { color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COS 102/ CSC 121: Introduction to Problem Solving</h1>
+        <h2>Random Question Generator</h2>
+        <div id="questionDisplay">Click the button to get a question!</div>
+        <button onclick="generateQuestion()">Generate New Question</button>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
